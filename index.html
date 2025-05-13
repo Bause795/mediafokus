@@ -3,28 +3,39 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>MediaFokus</title>
+    <title>MediaFokus – Social Media Management</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body { background: #0e0e0e; color: white; font-family: sans-serif; margin: 0; padding: 4rem; text-align: center; }
-        h1 { color: #00b894; margin-bottom: 1rem; }
-        nav a { color: #00b894; margin: 0 1rem; text-decoration: none; }
-        .gallery img { max-width: 30%; margin: 1rem; border-radius: 8px; }
+        body { background: #0e0e0e; color: #fff; font-family: sans-serif; margin: 0; padding: 0; }
+        header { padding: 4rem 2rem; text-align: center; }
+        h1 { color: #00b894; font-size: 2.5rem; }
+        h2 { font-weight: normal; margin-top: 1rem; }
+        nav { margin-top: 2rem; }
+        nav a { margin: 0 1rem; color: #00b894; text-decoration: none; font-weight: bold; }
+        .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; padding: 2rem; }
+        .gallery img { width: 30%; border-radius: 10px; }
+        footer { background: #1a1a1a; text-align: center; padding: 2rem; color: #aaa; }
     </style>
 </head>
 <body>
-    <h1>Deine Marke. Dein Erfolg. Unser Content.</h1>
-    <p>Wir machen Content, der gesehen wird.</p>
-    <nav>
-        <a href="leistungen.html">Leistungen</a>
-        <a href="projekte.html">Projekte</a>
-        <a href="kontakt.html">Kontakt</a>
-        <a href="ueber-uns.html">Über uns</a>
-        <a href="impressum.html">Impressum</a>
-    </nav>
-    <div class="gallery">
-        <img src="IMG_1457_resized.jpg" alt="">
-        <img src="IMG_1463_resized.jpg" alt="">
-        <img src="IMG_1479_resized.jpg" alt="">
-    </div>
+    <header>
+        <h1>Deine Marke. Dein Erfolg. Unser Content.</h1>
+        <h2>Wir machen Content, der gesehen wird.</h2>
+        <nav>
+            <a href="leistungen.html">Leistungen</a>
+            <a href="projekte.html">Projekte</a>
+            <a href="ueber-uns.html">Über uns</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="impressum.html">Impressum</a>
+        </nav>
+    </header>
+    <section class="gallery">
+        <img src="portrait.jpg" alt="Galeriebild 1">
+        <img src="IMG_1463_resized.jpg" alt="Galeriebild 2">
+        <img src="IMG_1479_resized.jpg" alt="Galeriebild 3">
+    </section>
+    <footer>
+        © 2025 MediaFokus · kontakt@mediafokus.de
+    </footer>
 </body>
 </html>
